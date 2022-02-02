@@ -7,7 +7,7 @@
 
  ## ⚙️ Setup
 
-```bash
+```shell
 //yarn
 yarn add amethyste-client
 
