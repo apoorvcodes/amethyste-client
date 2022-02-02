@@ -1,7 +1,11 @@
 import axios, { AxiosResponse } from "axios";
 interface data {
   endpoint: string;
-  options: {};
+  options: {
+    url:string
+    avatar?:string
+    type?:Number
+  };
 }
 export default class AmiClient {
   token: string;
